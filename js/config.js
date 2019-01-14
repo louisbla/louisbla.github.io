@@ -1,33 +1,33 @@
 /* Google MAP Settings*/
-  var lat= 47.247328;  //Change the value with your address Latitude
-  var lng= 5.222890;  //Change the value with your address Longitude
+  var lat= 48.416786 ;  //Change the value with your address Latitude
+  var lng= -71.0566895;  //Change the value with your address Longitude
   
 //Skill Chart Data
 var skillData = {
 	skill1: [
 		{
-			title: "Langage C 90%",
+			title: "Langage JAVA 90%",
 			color: "#f3377a",
 			border: "4px solid #ac62e5",
 			value: '90%'
 		},
+        {
+            title: "C# 80%",
+            color: "#f3377a",
+            border: "4px solid #ac62e5",
+            value: '80%'
+        },
 		{
-			title: "Langage C++ 95%",
+			title: "Langage C 70%",
 			color: "#f3377a",
 			border: "4px solid #ac62e5",
-			value: '85%'
+			value: '70%'
 		},
 		{
-			title: "Pro*C & Oracle 76%",
+			title: "Langage C++ 80%",
 			color: "#f3377a",
 			border: "4px solid #ac62e5",
-			value: '76%'
-		},
-		{
-			title: "Windev 95%",
-			color: "#f3377a",
-			border: "4px solid #ac62e5",
-			value: '95%'
+			value: '80%'
 		},
 		{
 			title: "Visual Studio 70%",
@@ -67,11 +67,17 @@ var skillData = {
 		}
 	],
 	skill2: [
+        {
+            title: "PHP 85%",
+            color: "#1b7ee4",
+            border: "4px solid #f3377a",
+            value: '85%'
+        },
 		{
-			title: "HTML5 100%",
+			title: "HTML5 90%",
 			color: "#1b7ee4",
 			border: "4px solid #f3377a",
-			value: '100%'
+			value: '90%'
 		},
 		{
 			title: "CSS3 90%",
@@ -80,25 +86,19 @@ var skillData = {
 			value: '90%'
 		},
 		{
-			title: "PHP / PHP7 95%",
-			color: "#1b7ee4",
-			border: "4px solid #f3377a",
-			value: '95%'
-		},
-		{
-			title: "SYMFONY 4 50%",
+			title: "JS / jQuery 50%",
 			color: "#1b7ee4",
 			border: "4px solid #f3377a",
 			value: '50%'
 		},
 		{
-			title: "MySQL 95%",
+			title: "JEE 75%",
 			color: "#1b7ee4",
 			border: "4px solid #f3377a",
-			value: '95%'
+			value: '75%'
 		},
 		{
-			title: "JS / jQuery 70%",
+			title: "ASP.NET 70%",
 			color: "#1b7ee4",
 			border: "4px solid #f3377a",
 			value: '70%'
@@ -110,10 +110,10 @@ var skillData = {
 			value: '90%'
 		},
 		{
-			title: "Web Services 90%",
+			title: "Laravel 85%",
 			color: "#1b7ee4",
 			border: "4px solid #f3377a",
-			value: '90%'
+			value: '85%'
 		},
 		{
 			title: "Responsive Design 85%",
@@ -130,28 +130,28 @@ var skillData = {
 	],
   skill3: [
 		{
-			title: "Référencement 85%",
+			title: "MySQL 90%",
 			color: "#87b615",
 			border: "4px solid #1b7ee4",
-			value: '85%'
+			value: '90%'
 		},
 		{
-			title: "Positionnement 92%",
+			title: "NoSQL 60%",
 			color: "#87b615",
 			border: "4px solid #1b7ee4",
-			value: '92%'
+			value: '60%'
 		},
 		{
-			title: "Optimisation de Contenu 92%",
+			title: "Firebase 80%",
 			color: "#87b615",
 			border: "4px solid #1b7ee4",
-			value: '92%'
+			value: '80%'
 		},
 		{
-			title: "Rédaction de contenu 95%",
+			title: "phpMyAdmin 90%",
 			color: "#87b615",
 			border: "4px solid #1b7ee4",
-			value: '95%'
+			value: '90%'
 		},
 		{
 			title: "Réseaux Sociaux 80%",
@@ -192,72 +192,60 @@ var skillData = {
 	],
   skill4: [
 		{
-			title: "Creativité 85%",
+			title: "IntelliJ 85%",
 			color: "#000000",
 			border: "4px solid #87b615",
 			value: '85%'
 		},
 		{
-			title: "Chef de Projet 90%",
+			title: "Eclipse 90%",
 			color: "#000000",
 			border: "4px solid #87b615",
 			value: '90%'
 		},
 		{
-			title: "Motivation 95%",
+			title: "Visual Studio 95%",
 			color: "#000000",
 			border: "4px solid #87b615",
 			value: '95%'
 		},
 		{
-			title: "Travail en Equipe 95%",
+			title: "NetBeans 95%",
 			color: "#000000",
 			border: "4px solid #87b615",
 			value: '95%'
 		},
 		{
-			title: "Force de Proposition 95%",
+			title: "PhpStorm 95%",
 			color: "#000000",
 			border: "4px solid #87b615",
 			value: '95%'
 		},
-		{
-			title: "Rigueur 90%",
-			color: "#000000",
-			border: "4px solid #87b615",
-			value: '90%'
-		},
-		{
-			title: "Esprit Critique 95%",
-			color: "#000000",
-			border: "4px solid #87b615",
-			value: '95%'
-		},
-		{
-			title: "Evolutivité 90%",
-			color: "#000000",
-			border: "4px solid #87b615",
-			value: '90%'
-		},
-		{
-			title: "Ambition 95%",
-			color: "#000000",
-			border: "4px solid #87b615",
-			value: '95%'
-		},
-		{
-			title: "Productivité 90%",
-			color: "#000000",
-			border: "4px solid #87b615",
-			value: '90%'
-		}
+      {
+          title: "Android Studio 95%",
+          color: "#000000",
+          border: "4px solid #87b615",
+          value: '95%'
+      },
 	],
 	skill5: [
+        {
+            title: "Git 65%",
+            color: "#ac62e5",
+            border: "4px solid #000000",
+            value: '65%'
+        },
+        {
+            title: "VMware 95%",
+            color: "#ac62e5",
+            border: "4px solid #000000",
+            value: '95%'
+        },
 		{
-			title: "Anglais 70%",
+			title: "Anglais 90%",
 			color: "#ac62e5",
 			border: "4px solid #000000",
-			value: '70%'
+			value: '90%'
 		},
 		{
 			title: "Traitement Texte 95%",
@@ -272,16 +260,10 @@ var skillData = {
 			value: '85%'
 		},
 		{
-			title: "Infographie 65%",
+			title: "Sécurité informatique 85%",
 			color: "#ac62e5",
 			border: "4px solid #000000",
-			value: '65%'
-		},
-		{
-			title: "Compta. 65%",
-			color: "#ac62e5",
-			border: "4px solid #000000",
-			value: '65%'
+			value: '85%'
 		},
 		{
 			title: "Gestion Projet 90%",
@@ -307,11 +289,6 @@ var skillData = {
 			border: "4px solid #000000",
 			value: '75%'
 		},
-		{
-			title: "Relationnel Clients 95%",
-			color: "#ac62e5",
-			border: "4px solid #000000",
-			value: '95%'
-		}
+
 	]
 }
