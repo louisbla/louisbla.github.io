@@ -116,6 +116,16 @@ blockquote {
 	height: 3px;
 	margin: 5px;
 }
+
+.change-section{
+	text-align: center;
+	display: inline-block;
+	width: 250px;
+	background: #FC6F5C;
+	height: 3px;
+	margin: 5px;
+}
+
 p {
 	line-height: 1.6em;
 	margin-bottom: 1.6em;
