@@ -70,6 +70,12 @@ var skillData = {
 
 	skill2: [
         {
+            title: "Programmation orientée objet 90%",
+            color: "#f3377a",
+            border: "4px solid #ac62e5",
+            value: '90%'
+        },
+        {
             title: "Langage JAVA 90%",
             color: "#f3377a",
             border: "4px solid #ac62e5",
@@ -89,6 +95,12 @@ var skillData = {
         },
         {
             title: "Langage C++ 80%",
+            color: "#f3377a",
+            border: "4px solid #ac62e5",
+            value: '80%'
+        },
+        {
+            title: "Modèle MVC 80%",
             color: "#f3377a",
             border: "4px solid #ac62e5",
             value: '80%'
